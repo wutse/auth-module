@@ -2,13 +2,15 @@
   <div class="mb-3 row">
     <label for="email" class="col-sm-4 col-form-label d-flex justify-content-end">Email</label>
     <div class="col-sm-4">
-      <input type="text" class="form-control" id="email" name="email" placeholder="email@example.com" required>
+      <input type="text" class="form-control" id="mail" name="mail" placeholder="email@example.com" value="{{userMail}}"
+             required>
     </div>
   </div>
   <div class="mb-3 row">
     <label for="password" class="col-sm-4 col-form-label d-flex justify-content-end">Password</label>
     <div class="col-sm-4">
       <input type="password" class="form-control" id="password" name="password" placeholder="password" required>
+
     </div>
   </div>
   <div class="mb-3 row">
@@ -16,4 +18,9 @@
       <button type="submit" class="btn btn-success">Login</button>
     </div>
   </div>
+  {{#if errMsg}}
+  <div class="mb-3 row invalid-feedback d-block d-flex justify-content-center">
+    {{errMsg}}
+  </div>
+  {{/if}}
 </form>

@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://172.30.176.1/autoModule', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb://172.29.16.1/authModule', { useNewUrlParser: true, useUnifiedTopology: true })
   .catch(err => console.log(err));
 
 const db = mongoose.connection;

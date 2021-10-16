@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "mail": "tony@stark.com",
+      "name": "Tony",
+      "password": "iamironman"
+    },
+    {
+      "mail": "captain@hotmail.com",
+      "name": "Steve",
+      "password": "icandothisallday"
+    },
+    {
+      "mail": "peter@parker.com",
+      "name": "Peter",
+      "password": "enajyram"
+    },
+    {
+      "mail": "natasha@gamil.com",
+      "name": "Natasha",
+      "password": "*parol#@$!"
+    },
+    {
+      "mail": "nick@shield.com",
+      "name": "Nick",
+      "password": "password"
+    }
+  ]
+}
